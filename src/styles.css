@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    width: 100%;
+    margin: 0 auto;
+    background: #f5f5f5;
+    font-family: 'Montserrrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container .weather-card {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20em 0;
+}
+
+.container .weather-card .city,
+.container .weather-card .temp,
+.container .weather-card .description {
+    text-align: center;
+}
+
+.container .weather-card .city p,
+.container .weather-card .description p {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.container .weather-card .temp h1 {
+    letter-spacing: .2em;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.container .weather-card .icon {
+    width: 43px;
+    margin: 0 auto;
+}
+
+.container .weather-card .icon img {
+    width: 100%;
+    margin: 0 auto;
+}
